@@ -1,3 +1,31 @@
+#include <stdio.h>
+#define N 500
+#define swap(x, y) {int tmp = x; x = y; y = tmp;}
+
+void quicksort(int a[], int low, int high);
+int partition(int a[], int low, int high);
+
+int size;
+
+int main(void)
+{
+    int array[N];
+    scanf("%d", &size);
+
+    for (int i = 0; i < size; i++)
+    {
+        scanf("%d", &array[i]);
+    }
+
+    quicksort(array, 0, size - 1);
+
+    for (int i = 0; i < size; i++)
+    {
+        printf("%d ", array[i]);
+    }
+    return 0;
+}
+
 int partition(int a[size],int low,int high){
     int s,i,n;
     n=low;
