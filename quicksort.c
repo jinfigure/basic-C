@@ -7,6 +7,7 @@ int partition(int a[], int low, int high);
 
 int size;
 
+//loader code//
 int main(void)
 {
     int array[N];
@@ -26,6 +27,7 @@ int main(void)
     return 0;
 }
 
+//function//
 int partition(int a[size],int low,int high){
     int s,i,n;
     n=low;
