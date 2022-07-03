@@ -1,3 +1,5 @@
+//此題題目在README中
+
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
