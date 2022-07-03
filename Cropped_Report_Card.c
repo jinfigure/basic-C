@@ -28,7 +28,7 @@ int main () {
 
 //function//
 int *report_card (int *s) {
-int len=0,i,l=0,start=0,S=0,sum=0,B;
+    int len=0,i,l=0,start=0,S=0,sum=0,B;
     for(i=0;*(s+i)!=-1;i++){
         if(*(s+i)>=60){
             l++;
