@@ -1,3 +1,10 @@
+//裁剪成績單: 將輸入的成績中不及格的刪除並保留及格的成績
+//參考題目給的loder code撰寫一個report_card()函式
+//ex:
+//input: 50 60 70 8 90 40 80 -1
+//output: 60 70 80 90
+
+
 #include <stdio.h>
 int *report_card (int *s) ;
 //loader coad//
@@ -21,7 +28,7 @@ int main () {
 
 //function//
 int *report_card (int *s) {
-	int len=0,i,l=0,start=0,S=0,sum=0,B;
+int len=0,i,l=0,start=0,S=0,sum=0,B;
     for(i=0;*(s+i)!=-1;i++){
         if(*(s+i)>=60){
             l++;
