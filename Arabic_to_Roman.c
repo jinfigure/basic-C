@@ -1,3 +1,5 @@
+#輸入一整數 並以羅馬數字(字串)輸出
+
 #include<stdio.h>
 int main(){
     int x,a,b,c,d,e,f,g;
