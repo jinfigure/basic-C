@@ -1,3 +1,7 @@
+//撰寫一支使用quitsort演算法將數列由小到大排序的程式
+//並能以圖片中的方式印出演算過程
+//intput : 第一行為數列長度 第二行為數列
+
 #include <stdio.h>
 #define N 500
 #define swap(x, y) {int tmp = x; x = y; y = tmp;}
