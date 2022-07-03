@@ -7,5 +7,9 @@
 附註:  
   
 Looping_Rooms.c 題目說明
-![2022-02-12](https://user-images.githubusercontent.com/93486960/177051342-e5254e51-1cbf-458b-9f6e-f6b338cac5bc.png)
+![2022-02-12](https://user-images.githubusercontent.com/93486960/177051342-e5254e51-1cbf-458b-9f6e-f6b338cac5bc.png)  
+  
+quitsort.c 題目說明
+![2022-01-18 (1)](https://user-images.githubusercontent.com/93486960/177052257-61b19791-3865-4885-8cf3-bf2c5a4ac887.png)
+
 
