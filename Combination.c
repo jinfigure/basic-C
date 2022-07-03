@@ -1,3 +1,8 @@
+//組合: C(m,n) = m!/(n!*(m-n)!)
+//input : Two integers m,n seperated by a space. 1 <= n <= m <30
+//output : An integer represents the value of C(m,n)
+
+
 #include <stdio.h>
 #include <math.h>
 int main(void) {
